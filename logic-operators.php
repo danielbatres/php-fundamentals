@@ -9,7 +9,7 @@ var_dump($feline_cats && $cats_four_legs);
 var_dump($cats_four_legs || $cats_fly);
 var_dump(!$cats_four_legs);
 
-$result = $cats_four_legs and $cats_program_with_php;
+$result = ($cats_four_legs and $cats_program_with_php);
 
 var_dump($result);
 
